@@ -69,9 +69,47 @@ nav li>a {
     background: #FF900E;
     width: 180px;
     height: 64px;
-    border: none;
+    border: 0;
     color: #FFF;
     text-align: center;
     font-size: 1.2rem;
     font-weight: 600;
+    cursor: pointer;
+}
+
+.bannar-img{
+    margin-top: 30px;
+    width: 100%;
+}
+
+
+
+/* responsive designe */
+/* for mobile devic */
+@media  screen and (max-width:576px)
+{
+    header{
+        padding:15px;
+    }
+   nav{
+    flex-direction: column;
+   }
+   /* ul {
+    flex-direction: column;
+   }
+   li{
+    margin-bottom: 10px;
+   } */
+}
+
+/* for tablet phone */
+
+@media screen and (min-width:576px) and (max-width:960)
+{
+   header{
+    padding: 20px;
+   }
+   nav{
+    flex-direction: column;
+   }
 }
